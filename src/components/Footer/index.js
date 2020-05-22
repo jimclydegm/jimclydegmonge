@@ -14,16 +14,26 @@ const Footer = () => (
           target="_blank">
           GitHub
         </Styled.Link>
-        <Styled.Link href="https://github.com/jimclydegm"
+        <Styled.Link href="https://www.facebook.com/jimclydegmonge/"
           rel="noreferrer noopener"
           target="_blank">
-          GitHub
+          Facebook
         </Styled.Link>
         <Styled.Link
-          href="https://github.com/SaimirKapaj/gatsby-markdown-personal-website"
+          href="https://twitter.com/jimclydego"
           rel="noreferrer noopener"
           target="_blank">
           Twitter
+        </Styled.Link>
+        <Styled.Link href="https://www.instagram.com/jimmonge/"
+          rel="noreferrer noopener"
+          target="_blank">
+          Instagram
+        </Styled.Link>
+        <Styled.Link href="https://www.linkedin.com/in/jim-clyde-monge"
+          rel="noreferrer noopener"
+          target="_blank">
+          LinkedIn
         </Styled.Link>
         {/* <Styled.Link href="/" rel="noreferrer noopener" target="_blank">
           Behance
