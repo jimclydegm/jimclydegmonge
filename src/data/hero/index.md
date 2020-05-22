@@ -1,8 +1,10 @@
 ---
 category: 'hero section'
-title: 'Frontend Developer'
-subtitle: 'I am the Great Gatsby'
-content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+title: 'Software Developer'
+subtitle: 'Hi! I am Jim.'
+content: 'I am full time software engineer. I usually eat, drink, learn new things about technology, or watch netflix whenever Im not working. I created this blog mostly to share all the interesting stuff learn online. I will also post some of my peronal travels, artworks, and basically anything that I think is cool :D Be sure to check them out. Also, please send me a message in "Contact Me" page to stay in touch. Thanks for the visit!'
+# I have worked on printer UI, Web UI, Windows Drivers, desktop applications, services, and microdrivers. I am also a full time eater, art hobbyist, and likes 
+# drinking with friends on weekends!'
 linkTo: '/resume/'
 linkText: 'View My Profile'
 ---

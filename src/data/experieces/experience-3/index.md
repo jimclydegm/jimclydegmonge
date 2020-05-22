@@ -1,7 +1,7 @@
 ---
 category: 'experiences'
 company: 'Facebook'
-position: 'Frontend Developer'
+position: 'Software Developer'
 startDate: 'May 2013'
 endDate: 'Jun 2015'
 ---
