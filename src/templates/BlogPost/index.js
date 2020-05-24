@@ -9,6 +9,7 @@ import TitleSection from 'components/ui/TitleSection';
 import FormatHtml from 'components/utils/FormatHtml';
 
 import * as Styled from './styles';
+import Comments from 'components/Comments';
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
@@ -37,6 +38,7 @@ const BlogPost = ({ data, pageContext }) => {
           </span>
         </Styled.Links>
       </Container>
+      <Comments/>
     </Layout>
   );
 };
