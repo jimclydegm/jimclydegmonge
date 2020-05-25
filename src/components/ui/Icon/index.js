@@ -9,7 +9,7 @@ import {
   faBullhorn,
   faMapMarkerAlt,
   faPhone,
-  faPaperPlane
+  faPaperPlane,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

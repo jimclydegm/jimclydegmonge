@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Copywrite'
-icon: 'edit'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+title: 'Web design and development'
+icon: 'laptop-code'
+description: 'Static website development with Gatsby, Github, and Netlify.'
 ---
