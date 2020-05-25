@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Illustrator'
+title: 'SVN'
 percentage: 80
 ---

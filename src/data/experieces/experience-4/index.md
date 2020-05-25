@@ -1,9 +1,10 @@
 ---
 category: 'experiences'
-company: 'Netlify'
-position: 'Senior Frontend Developer'
-startDate: 'Jun 2015'
-endDate: 'Jan 2018'
+company: 'Senior Assistant R&D Engineer'
+position: 'Japan/Philippines (1 year 8 months)'
+startDate: 'Dec 2015'
+endDate: 'Jul 2017'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+BIOS Development support.
+Printer WebUI Development. Test/Verification. 

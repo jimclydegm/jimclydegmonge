@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Photoshop'
+title: 'Microsoft office Tools'
 percentage: 90
 ---

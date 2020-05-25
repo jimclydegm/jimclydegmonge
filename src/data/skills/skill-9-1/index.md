@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'Illustrator'
+title: 'Git/Github/Bitbucket'
 percentage: 80
 ---

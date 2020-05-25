@@ -1,5 +1,5 @@
 ---
 category: 'experiences section'
-title: 'All Companies'
-subtitle: 'My Experience'
+title: 'My Experience'
+subtitle: 'AWS (Advanced World Systems, Inc.) Philippines'
 ---

@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Facebook'
-position: 'Software Developer'
-startDate: 'May 2013'
-endDate: 'Jun 2015'
+company: 'Assistant R&D Engineer'
+position: 'Philippines (7 months)'
+startDate: 'Jun 2015'
+endDate: 'Dec 2015'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Printer UI Development. Test/Verification. 
