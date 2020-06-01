@@ -1,8 +1,13 @@
+var dotenv = require("dotenv");
+dotenv.config();
+
+const { spaceId, accessToken, snipcart } = process.env;
+
 module.exports = {
   siteMetadata: {
     title: `Jim Clyde Monge`,
-    description: `Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.`,
-    author: `Saimir Kapaj`
+    description: `Personal Blog Website.`,
+    author: `Jim Clyde Monge`
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -34,6 +39,15 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      "resolve": "gatsby-source-flotiq",
+      "options": {
+        "baseUrl": process.env.GATSBY_FLOTIQ_BASE_URL,
+        "authToken": process.env.GATSBY_FLOTIQ_API_KEY,
+        "forceReload": false,
+        "includeTypes": ['product', '_media']
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -93,6 +107,13 @@ module.exports = {
         sampleRate: 5,
         siteSpeedSampleRate: 10,
         cookieDomain: "example.com",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-snipcart",
+      options: {
+        apiKey: process.env.SNIPCART_API_KEY,
+        autopop: true,
       },
     },
   ]

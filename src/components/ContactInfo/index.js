@@ -49,6 +49,7 @@ const ConctactInfo = () => {
           </Styled.ContactInfoItem>
         );
       })}
+      
     </Container>
   );
 };
