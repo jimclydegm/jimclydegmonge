@@ -15,7 +15,7 @@ https://lumen.netlify.app/
 
 </br>
 
-****
+</br>
 
 </br>
 
@@ -24,8 +24,6 @@ https://lumen.netlify.app/
 </br>
 
 Head over to https://nodejs.org/en/ and download the latest stable build.
-
-<!--![node-js-download](./NodeJS_download.JPG) -->
 
 </br>
 
@@ -56,7 +54,7 @@ Once installed, check the version by running the following command.
 
 Make sure to add Python in your Environment Variables
 
-![node-js-download](./Python_env.JPG) 
+![python_env_var](./Python_env.JPG) 
 
 </br>
 </br>
@@ -98,7 +96,7 @@ In this example, let's name it **mywebsite**
 
 </br>
 
-![node-js-download](./Github_repo.JPG) 
+![git_repo_create](./Github_repo.JPG) 
 
 </br>
 
@@ -143,9 +141,7 @@ Open up Git Bash and navigate to your desired local directory.
 
 Execute the command to clone the starter website from Git repo to your local disk.
 
-```console
-> gatsby new mywebsite https://github.com/alxshelepenok/gatsby-starter-lumen
-```
+![clone_starter_lumen](./Clone_lumen.JPG)
 
 Important: Make sure to rename 'mywebsite' with your desired website name.
 
@@ -153,17 +149,13 @@ Check the files in your local folder and take note of the file/folder structure,
 
 </br>
 
-![gatsby-starter-netlify-cms](./FileList.JPG)
+![file_list](./FileList.JPG)
 
 
 In case you run into errors, just like I did with Python version issue.
 
-```console
-> ...
-> gyp verb check python checking for Python executable "python2" in the PATH
-> gyp verb `which` failed Error: not found: python2
-> ...
-```
+gyp verb check python checking for Python executable python2 in the PATH
+gyp verb which failed Error: not found: python2
 
 Follow these steps:
 
@@ -189,13 +181,13 @@ You should get a message to run the site in localhost, like this
 
 </br>
 
-![gatsby-starter-netlify-cms](./Gatsby_develop.JPG)
+![gatsby_develop_cmd](./Gatsby_develop.JPG)
 
 </br>
 
 Check it and see if site is rendered in browser
 
-![gatsby-starter-netlify-cms](./Localhost.JPG)
+![localhost_run](./Localhost.JPG)
 
 </br>
 
@@ -209,12 +201,7 @@ Netlify will get the source code from Git repository. So first, we need to put o
 
 Open up the terminal and execute the command below
 
-```console
-> git init
-> git remote add origin https://github.com/jimclydegm/mywebsite.git
-```
-
-![gatsby-starter-netlify-cms](./Git_add_origin.JPG)
+![git_repo_add](./Git_add_origin.JPG)
 
 </br>
 
@@ -222,7 +209,7 @@ Now open up Github Desktop and go over to our website repo.
 
 I repeat you can do the next steps in command line, but I prefer using the GUI. It really depends whichever method you are comfortable with.
 
-![gatsby-starter-netlify-cms](./Github_desktop.JPG)
+![desktop_github_add_repo](./Github_desktop.JPG)
 
 </br>
 
@@ -230,7 +217,7 @@ Then click on Publish Branch. This will push all staged files to Github repo.
 
 </br>
 
-![gatsby-starter-netlify-cms](./Push_master.JPG)
+![desktop_github_push](./Push_master.JPG)
 
 </br>
 
@@ -238,7 +225,7 @@ Finally check the repo if all our files are pushed successfully.
 
 </br>
 
-![gatsby-starter-netlify-cms](./Push_success.JPG)
+![desktop_github_push_success](./Push_success.JPG)
 
 </br>
 
