@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "components/Layout"
 import SEO from "components/SEO"
-import "bootstrap/dist/css/bootstrap.css"
+// import "bootstrap/dist/css/bootstrap.css"
 import "../components/css/style.css"
 
 // not needed style imports
@@ -66,7 +66,7 @@ class IndexPost extends React.Component {
   }
 }
 
-const ProjectPage = data => (
+const ProductsPage = data => (
 
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -77,7 +77,7 @@ const ProjectPage = data => (
   </Layout>
 )
 
-export default ProjectPage
+export default ProductsPage
 
 export const query = graphql`
   query AboutQuery {
