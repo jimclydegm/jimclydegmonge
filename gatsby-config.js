@@ -41,6 +41,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
+      },
+    },
+    {
       "resolve": "gatsby-source-flotiq",
       "options": {
         "baseUrl": process.env.GATSBY_FLOTIQ_BASE_URL,
@@ -79,13 +86,6 @@ module.exports = {
       options: {
         shortname: `jimclydemonge`
       }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
-      },
     },
     {
       resolve: "gatsby-plugin-snipcart",
