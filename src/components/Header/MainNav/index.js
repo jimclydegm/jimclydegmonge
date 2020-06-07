@@ -23,6 +23,10 @@ const mainNavItems = [
     title: 'Blog',
     slug: '/blog/'
   },
+  // {
+  //   title: 'Gallery',
+  //   slug: '/gallery/'
+  // },
   {
     title: 'Contact Me',
     slug: '/contact/'

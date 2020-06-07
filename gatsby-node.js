@@ -26,6 +26,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const blogPostTemplate = path.resolve(`src/templates/BlogPost/index.js`);
   const projectPostTemplate = path.resolve(`src/templates/ProjectPost/index.js`);
+  const galleryPostTemplate = path.resolve(`src/templates/GalleryPost/index.js`);
 
   const blog = await graphql(`
     query {
@@ -67,8 +68,29 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
 
+  const gallery = await graphql(`
+  query {
+    allMarkdownRemark(
+      filter: { frontmatter: { category: { eq: "gallery" } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+`);
+
   const blogPosts = blog.data.allMarkdownRemark.edges;
   const projectsPosts = proj.data.allMarkdownRemark.edges;
+  const galleryPosts = gallery.data.allMarkdownRemark.edges;
 
   blogPosts.forEach((post, index) => {
     const previous = index === blogPosts.length - 1 ? null : blogPosts[index + 1].node;
@@ -100,6 +122,20 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
+  galleryPosts.forEach((post, index) => {
+    const previous = index === galleryPosts.length - 1 ? null : galleryPosts[index + 1].node;
+    const next = index === 0 ? null : galleryPosts[index - 1].node;
+
+    createPage({
+      path: `${post.node.fields.slug}`,
+      component: galleryPostTemplate,
+      context: {
+        slug: `${post.node.fields.slug}`,
+        previous,
+        next
+      }
+    });
+  });
 
   return new Promise((resolve, reject) => {
     const StoreTemplate = path.resolve("src/templates/Products/details.js")
