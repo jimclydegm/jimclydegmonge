@@ -2,7 +2,7 @@
 category: 'blog'
 cover: './cover.jpg'
 title: 'How to add "Buy me a coffee" widget' 
-description: 'Tutorial on setting up a static website with Gatsby, Github, and Netlify at no cost.'
+description: 'Tutorial on adding a buy me a cofee widget to your gatsby website.'
 date: '2020-05-25'
 tags: ['Gatsby', 'Netlify', 'Github']
 published: true
