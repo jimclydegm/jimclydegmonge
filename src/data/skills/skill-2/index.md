@@ -1,5 +1,5 @@
 ---
 category: 'skills'
 title: 'C++'
-percentage: 90
+percentage: 80
 ---

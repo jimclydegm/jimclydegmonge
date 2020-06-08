@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Graphic Design'
+title: 'Graphic Designer/Illustrator'
 icon: 'draw-polygon'
-description: 'Design icons, banners, logos, and layouts. Web design, mobile app design.'
+description: 'I design icons, banners, logos, Web design, and mobile app UI design. I also do traditional artworks in various mediums.'
 ---

@@ -6,4 +6,4 @@ startDate: 'Jun 2015'
 endDate: 'Dec 2015'
 ---
 
-Printer UI Development. Test/Verification. 
+<!-- Printer UI Development. Test/Verification.  -->

@@ -6,4 +6,4 @@ startDate: 'Mar 2014'
 endDate: 'Sep 2014'
 ---
 
-6 Months Technical Training Incubation Program.
+<!-- 6 Months Technical Training Incubation Program. -->

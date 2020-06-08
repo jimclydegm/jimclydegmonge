@@ -6,5 +6,5 @@ startDate: 'Dec 2015'
 endDate: 'Jul 2017'
 ---
 
-BIOS Development support.
-Printer WebUI Development. Test/Verification. 
+<!-- BIOS Development support.
+Printer WebUI Development. Test/Verification.  -->

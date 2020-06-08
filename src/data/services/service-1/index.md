@@ -1,6 +1,6 @@
 ---
 category: 'services'
-title: 'Desktop software development'
+title: 'Developer'
 icon: 'laptop-code'
-description: 'Windows drivers, services, microdrivers, and mobile app development.'
+description: 'C and C++ desktop software development. I have worked on embedded systems, microdrivers, windows drivers, user apps and services.'
 ---

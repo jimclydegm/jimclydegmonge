@@ -70,16 +70,16 @@ const Gallery = () => {
                     <Styled.Image>
                       <Img fluid={cover.childImageSharp.fluid} alt={title} />
                     </Styled.Image>
-                    <Styled.Content>
+                    {/* <Styled.Content>
                       <Styled.Date>{date}</Styled.Date>
                       <Styled.Title>{title}</Styled.Title>
-                      {/* <Styled.Description>{description}</Styled.Description> */}
-                    </Styled.Content>
-                    <Styled.Tags>
+                      <Styled.Description>{description}</Styled.Description>
+                    </Styled.Content> */}
+                    {/* <Styled.Tags>
                       {tags.map((item) => (
                         <Styled.Tag key={item}>{item}</Styled.Tag>
                       ))}
-                    </Styled.Tags>
+                    </Styled.Tags> */}
                   </Styled.Card>
                 </motion.div>
               </Link>
